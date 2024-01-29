@@ -110,6 +110,8 @@ public class UserAdapter extends  RecyclerView.Adapter<UserAdapter.ViewHolder> {
                             listUser.set(getAdapterPosition(), userModel);
                             notifyItemChanged(getAdapterPosition());
                             dialog.dismiss();
+
+                            Toast.makeText(context, "Updated", Toast.LENGTH_SHORT).show();
                         }
                     });
                     btn_cancel.setOnClickListener(new View.OnClickListener() {
