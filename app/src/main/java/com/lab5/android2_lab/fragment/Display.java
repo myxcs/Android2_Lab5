@@ -1,4 +1,4 @@
-package com.example.android2_lab.fragment;
+package com.lab5.android2_lab.fragment;
 
 import android.os.Bundle;
 
@@ -9,12 +9,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 import com.example.android2_lab.R;
-import com.example.android2_lab.adapter.UserAdapter;
-import com.example.android2_lab.dao.UserDAO;
-import com.example.android2_lab.model.UserModel;
+import com.lab5.android2_lab.adapter.UserAdapter;
+import com.lab5.android2_lab.dao.UserDAO;
+import com.lab5.android2_lab.model.UserModel;
 
 import java.util.ArrayList;
 

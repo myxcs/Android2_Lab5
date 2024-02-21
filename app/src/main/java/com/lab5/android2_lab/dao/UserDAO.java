@@ -1,12 +1,12 @@
-package com.example.android2_lab.dao;
+package com.lab5.android2_lab.dao;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.android2_lab.database.DbHelper;
-import com.example.android2_lab.model.UserModel;
+import com.lab5.android2_lab.database.DbHelper;
+import com.lab5.android2_lab.model.UserModel;
 
 import java.util.ArrayList;
 

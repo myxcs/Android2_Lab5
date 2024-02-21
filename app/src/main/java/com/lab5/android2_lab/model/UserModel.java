@@ -1,4 +1,4 @@
-package com.example.android2_lab.model;
+package com.lab5.android2_lab.model;
 
 public class UserModel {
     private int id;

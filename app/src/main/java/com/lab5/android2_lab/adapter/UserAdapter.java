@@ -1,4 +1,4 @@
-package com.example.android2_lab.adapter;
+package com.lab5.android2_lab.adapter;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -14,9 +14,10 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+
 import com.example.android2_lab.R;
-import com.example.android2_lab.dao.UserDAO;
-import com.example.android2_lab.model.UserModel;
+import com.lab5.android2_lab.dao.UserDAO;
+import com.lab5.android2_lab.model.UserModel;
 
 import java.util.ArrayList;
 

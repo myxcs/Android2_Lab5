@@ -1,19 +1,16 @@
-package com.example.android2_lab;
+package com.lab5.android2_lab;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.widget.Toast;
+
 
 import com.example.android2_lab.R;
-import com.example.android2_lab.adapter.UserAdapter;
-import com.example.android2_lab.dao.UserDAO;
-import com.example.android2_lab.model.UserModel;
+import com.lab5.android2_lab.dao.UserDAO;
+import com.lab5.android2_lab.model.UserModel;
 import com.google.android.material.tabs.TabLayout;
-import com.google.android.material.tabs.TabLayoutMediator;
 
 import java.util.ArrayList;
 

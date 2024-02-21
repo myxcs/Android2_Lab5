@@ -1,16 +1,12 @@
-package com.example.android2_lab;
-
-import android.os.Bundle;
+package com.lab5.android2_lab;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
-import androidx.fragment.app.FragmentManager;
-import androidx.lifecycle.Lifecycle;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import com.example.android2_lab.fragment.Display;
-import com.example.android2_lab.fragment.Home;
+import com.lab5.android2_lab.fragment.Display;
+import com.lab5.android2_lab.fragment.Home;
 
 public class AdapterTab extends FragmentStateAdapter {
 
